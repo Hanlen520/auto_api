@@ -1,2 +1,2 @@
-# autoTest
-基于JAVA的接口自动化测试框架
+# auto_api
+基于python+request+pytest+allure的接口自动化测试框架
