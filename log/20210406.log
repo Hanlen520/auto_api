@@ -1,0 +1,72 @@
+[2021-04-06 22:52:35,471][logger.py 31][DEBUG]:debug
+[2021-04-06 22:54:21,628][logger.py 39][ERROR]:exception
+Traceback (most recent call last):
+  File "C:\python36\lib\configparser.py", line 789, in get
+    value = d[option]
+  File "C:\python36\lib\collections\__init__.py", line 883, in __getitem__
+    return self.__missing__(key)            # support subclasses that define __missing__
+  File "C:\python36\lib\collections\__init__.py", line 875, in __missing__
+    raise KeyError(key)
+KeyError: 'base_url1'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:/document/code/pythonCode/auto_api/common/read_data.py", line 23, in read_ini
+    return self.conf.get(section, option)
+  File "C:\python36\lib\configparser.py", line 792, in get
+    raise NoOptionError(option, section)
+configparser.NoOptionError: No option 'base_url1' in section: 'base_url'
+[2021-04-06 22:57:47,188][logger.py 39][ERROR]:exception
+Traceback (most recent call last):
+  File "C:\python36\lib\configparser.py", line 789, in get
+    value = d[option]
+  File "C:\python36\lib\collections\__init__.py", line 883, in __getitem__
+    return self.__missing__(key)            # support subclasses that define __missing__
+  File "C:\python36\lib\collections\__init__.py", line 875, in __missing__
+    raise KeyError(key)
+KeyError: 'base_url1'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:/document/code/pythonCode/auto_api/common/read_data.py", line 23, in read_ini
+    return self.conf.get(section, option)
+  File "C:\python36\lib\configparser.py", line 792, in get
+    raise NoOptionError(option, section)
+configparser.NoOptionError: No option 'base_url1' in section: 'base_url'
+[2021-04-06 22:58:22,144][logger.py 39][ERROR]:exception
+Traceback (most recent call last):
+  File "C:\python36\lib\configparser.py", line 789, in get
+    value = d[option]
+  File "C:\python36\lib\collections\__init__.py", line 883, in __getitem__
+    return self.__missing__(key)            # support subclasses that define __missing__
+  File "C:\python36\lib\collections\__init__.py", line 875, in __missing__
+    raise KeyError(key)
+KeyError: 'base_url1'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:/document/code/pythonCode/auto_api/common/read_data.py", line 23, in read_ini
+    return self.conf.get(section, option)
+  File "C:\python36\lib\configparser.py", line 792, in get
+    raise NoOptionError(option, section)
+configparser.NoOptionError: No option 'base_url1' in section: 'base_url'
+[2021-04-06 23:07:10,962][logger.py 39][DEBUG]:debug
+[2021-04-06 23:07:54,993][logger.py 33][ERROR]:No section: 'base_url1'
+Traceback (most recent call last):
+  File "C:\python36\lib\configparser.py", line 1138, in _unify_values
+    sectiondict = self._sections[section]
+KeyError: 'base_url1'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:/document/code/pythonCode/auto_api/common/read_data.py", line 23, in read_ini
+    return self.conf.get(section, option)
+  File "C:\python36\lib\configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "C:\python36\lib\configparser.py", line 1141, in _unify_values
+    raise NoSectionError(section)
+configparser.NoSectionError: No section: 'base_url1'
